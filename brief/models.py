@@ -100,6 +100,7 @@ class Ecommerce(models.Model):
     name = models.TextField()
     phone_number = models.TextField()
     e_mail = models.EmailField()
+    soglasie = models.BooleanField(default=False)
     def __str__(self):
         return self.company_name
 # Create your models here.

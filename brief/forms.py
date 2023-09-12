@@ -4,4 +4,4 @@ from .models import *
 class EcommerceForm(forms.ModelForm):
     class Meta:
         model = Ecommerce
-        fields = "__all__"
+        fields = '__all__'

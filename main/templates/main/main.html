@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" class="order-form">
+        {{ContactUsform.as_p}}
+        {% csrf_token %}
+    <p><input type="submit" value="отправить заявку"></p>
+    </form>
+        <form action="" method="post" class="order1-form">
+            {{Notifications_form.as_p}}
+            {% csrf_token %}
+            <p><input type="submit" value="отправить заявку"></p>
+        </form>
+    
+</body>
+</html>

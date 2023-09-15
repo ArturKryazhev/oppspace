@@ -103,4 +103,7 @@ class Ecommerce(models.Model):
     soglasie = models.BooleanField(default=False)
     def __str__(self):
         return self.company_name
+    
+class test(models.Model):
+    files = models.FileField()
 # Create your models here.
